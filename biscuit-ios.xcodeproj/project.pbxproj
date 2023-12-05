@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		361F2F632B1F98BD00D757F9 /* biscuit_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361F2F622B1F98BD00D757F9 /* biscuit_iosApp.swift */; };
+		361F2F652B1F98BD00D757F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361F2F642B1F98BD00D757F9 /* ContentView.swift */; };
+		361F2F672B1F98BF00D757F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 361F2F662B1F98BF00D757F9 /* Assets.xcassets */; };
+		361F2F6B2B1F98BF00D757F9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 361F2F6A2B1F98BF00D757F9 /* Preview Assets.xcassets */; };
+		361F2F752B1F98C000D757F9 /* biscuit_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361F2F742B1F98C000D757F9 /* biscuit_iosTests.swift */; };
+		361F2F7F2B1F98C000D757F9 /* biscuit_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361F2F7E2B1F98C000D757F9 /* biscuit_iosUITests.swift */; };
+		361F2F812B1F98C000D757F9 /* biscuit_iosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361F2F802B1F98C000D757F9 /* biscuit_iosUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		361F2F712B1F98C000D757F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 361F2F572B1F98BD00D757F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 361F2F5E2B1F98BD00D757F9;
+			remoteInfo = "biscuit-ios";
+		};
+		361F2F7B2B1F98C000D757F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 361F2F572B1F98BD00D757F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 361F2F5E2B1F98BD00D757F9;
+			remoteInfo = "biscuit-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		361F2F5F2B1F98BD00D757F9 /* biscuit-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "biscuit-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		361F2F622B1F98BD00D757F9 /* biscuit_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = biscuit_iosApp.swift; sourceTree = "<group>"; };
+		361F2F642B1F98BD00D757F9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		361F2F662B1F98BF00D757F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		361F2F682B1F98BF00D757F9 /* biscuit_ios.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = biscuit_ios.entitlements; sourceTree = "<group>"; };
+		361F2F6A2B1F98BF00D757F9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		361F2F702B1F98C000D757F9 /* biscuit-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "biscuit-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		361F2F742B1F98C000D757F9 /* biscuit_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = biscuit_iosTests.swift; sourceTree = "<group>"; };
+		361F2F7A2B1F98C000D757F9 /* biscuit-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "biscuit-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		361F2F7E2B1F98C000D757F9 /* biscuit_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = biscuit_iosUITests.swift; sourceTree = "<group>"; };
+		361F2F802B1F98C000D757F9 /* biscuit_iosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = biscuit_iosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		361F2F5C2B1F98BD00D757F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		361F2F6D2B1F98C000D757F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		361F2F772B1F98C000D757F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		361F2F562B1F98BD00D757F9 = {
+			isa = PBXGroup;
+			children = (
+				361F2F612B1F98BD00D757F9 /* biscuit-ios */,
+				361F2F732B1F98C000D757F9 /* biscuit-iosTests */,
+				361F2F7D2B1F98C000D757F9 /* biscuit-iosUITests */,
+				361F2F602B1F98BD00D757F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		361F2F602B1F98BD00D757F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				361F2F5F2B1F98BD00D757F9 /* biscuit-ios.app */,
+				361F2F702B1F98C000D757F9 /* biscuit-iosTests.xctest */,
+				361F2F7A2B1F98C000D757F9 /* biscuit-iosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		361F2F612B1F98BD00D757F9 /* biscuit-ios */ = {
+			isa = PBXGroup;
+			children = (
+				361F2F622B1F98BD00D757F9 /* biscuit_iosApp.swift */,
+				361F2F642B1F98BD00D757F9 /* ContentView.swift */,
+				361F2F662B1F98BF00D757F9 /* Assets.xcassets */,
+				361F2F682B1F98BF00D757F9 /* biscuit_ios.entitlements */,
+				361F2F692B1F98BF00D757F9 /* Preview Content */,
+			);
+			path = "biscuit-ios";
+			sourceTree = "<group>";
+		};
+		361F2F692B1F98BF00D757F9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				361F2F6A2B1F98BF00D757F9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		361F2F732B1F98C000D757F9 /* biscuit-iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				361F2F742B1F98C000D757F9 /* biscuit_iosTests.swift */,
+			);
+			path = "biscuit-iosTests";
+			sourceTree = "<group>";
+		};
+		361F2F7D2B1F98C000D757F9 /* biscuit-iosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				361F2F7E2B1F98C000D757F9 /* biscuit_iosUITests.swift */,
+				361F2F802B1F98C000D757F9 /* biscuit_iosUITestsLaunchTests.swift */,
+			);
+			path = "biscuit-iosUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		361F2F5E2B1F98BD00D757F9 /* biscuit-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 361F2F842B1F98C000D757F9 /* Build configuration list for PBXNativeTarget "biscuit-ios" */;
+			buildPhases = (
+				361F2F5B2B1F98BD00D757F9 /* Sources */,
+				361F2F5C2B1F98BD00D757F9 /* Frameworks */,
+				361F2F5D2B1F98BD00D757F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "biscuit-ios";
+			productName = "biscuit-ios";
+			productReference = 361F2F5F2B1F98BD00D757F9 /* biscuit-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		361F2F6F2B1F98C000D757F9 /* biscuit-iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 361F2F872B1F98C000D757F9 /* Build configuration list for PBXNativeTarget "biscuit-iosTests" */;
+			buildPhases = (
+				361F2F6C2B1F98C000D757F9 /* Sources */,
+				361F2F6D2B1F98C000D757F9 /* Frameworks */,
+				361F2F6E2B1F98C000D757F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				361F2F722B1F98C000D757F9 /* PBXTargetDependency */,
+			);
+			name = "biscuit-iosTests";
+			productName = "biscuit-iosTests";
+			productReference = 361F2F702B1F98C000D757F9 /* biscuit-iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		361F2F792B1F98C000D757F9 /* biscuit-iosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 361F2F8A2B1F98C000D757F9 /* Build configuration list for PBXNativeTarget "biscuit-iosUITests" */;
+			buildPhases = (
+				361F2F762B1F98C000D757F9 /* Sources */,
+				361F2F772B1F98C000D757F9 /* Frameworks */,
+				361F2F782B1F98C000D757F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				361F2F7C2B1F98C000D757F9 /* PBXTargetDependency */,
+			);
+			name = "biscuit-iosUITests";
+			productName = "biscuit-iosUITests";
+			productReference = 361F2F7A2B1F98C000D757F9 /* biscuit-iosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		361F2F572B1F98BD00D757F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					361F2F5E2B1F98BD00D757F9 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					361F2F6F2B1F98C000D757F9 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 361F2F5E2B1F98BD00D757F9;
+					};
+					361F2F792B1F98C000D757F9 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 361F2F5E2B1F98BD00D757F9;
+					};
+				};
+			};
+			buildConfigurationList = 361F2F5A2B1F98BD00D757F9 /* Build configuration list for PBXProject "biscuit-ios" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 361F2F562B1F98BD00D757F9;
+			productRefGroup = 361F2F602B1F98BD00D757F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				361F2F5E2B1F98BD00D757F9 /* biscuit-ios */,
+				361F2F6F2B1F98C000D757F9 /* biscuit-iosTests */,
+				361F2F792B1F98C000D757F9 /* biscuit-iosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		361F2F5D2B1F98BD00D757F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				361F2F6B2B1F98BF00D757F9 /* Preview Assets.xcassets in Resources */,
+				361F2F672B1F98BF00D757F9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		361F2F6E2B1F98C000D757F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		361F2F782B1F98C000D757F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		361F2F5B2B1F98BD00D757F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				361F2F652B1F98BD00D757F9 /* ContentView.swift in Sources */,
+				361F2F632B1F98BD00D757F9 /* biscuit_iosApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		361F2F6C2B1F98C000D757F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				361F2F752B1F98C000D757F9 /* biscuit_iosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		361F2F762B1F98C000D757F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				361F2F812B1F98C000D757F9 /* biscuit_iosUITestsLaunchTests.swift in Sources */,
+				361F2F7F2B1F98C000D757F9 /* biscuit_iosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		361F2F722B1F98C000D757F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 361F2F5E2B1F98BD00D757F9 /* biscuit-ios */;
+			targetProxy = 361F2F712B1F98C000D757F9 /* PBXContainerItemProxy */;
+		};
+		361F2F7C2B1F98C000D757F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 361F2F5E2B1F98BD00D757F9 /* biscuit-ios */;
+			targetProxy = 361F2F7B2B1F98C000D757F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		361F2F822B1F98C000D757F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		361F2F832B1F98C000D757F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		361F2F852B1F98C000D757F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "biscuit-ios/biscuit_ios.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"biscuit-ios/Preview Content\"";
+				DEVELOPMENT_TEAM = ZXMFL64QNW;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "chris.biscuit-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		361F2F862B1F98C000D757F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "biscuit-ios/biscuit_ios.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"biscuit-ios/Preview Content\"";
+				DEVELOPMENT_TEAM = ZXMFL64QNW;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "chris.biscuit-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		361F2F882B1F98C000D757F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZXMFL64QNW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "chris.biscuit-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/biscuit-ios.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/biscuit-ios";
+			};
+			name = Debug;
+		};
+		361F2F892B1F98C000D757F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZXMFL64QNW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "chris.biscuit-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/biscuit-ios.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/biscuit-ios";
+			};
+			name = Release;
+		};
+		361F2F8B2B1F98C000D757F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZXMFL64QNW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "chris.biscuit-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "biscuit-ios";
+			};
+			name = Debug;
+		};
+		361F2F8C2B1F98C000D757F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZXMFL64QNW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "chris.biscuit-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "biscuit-ios";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		361F2F5A2B1F98BD00D757F9 /* Build configuration list for PBXProject "biscuit-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				361F2F822B1F98C000D757F9 /* Debug */,
+				361F2F832B1F98C000D757F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		361F2F842B1F98C000D757F9 /* Build configuration list for PBXNativeTarget "biscuit-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				361F2F852B1F98C000D757F9 /* Debug */,
+				361F2F862B1F98C000D757F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		361F2F872B1F98C000D757F9 /* Build configuration list for PBXNativeTarget "biscuit-iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				361F2F882B1F98C000D757F9 /* Debug */,
+				361F2F892B1F98C000D757F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		361F2F8A2B1F98C000D757F9 /* Build configuration list for PBXNativeTarget "biscuit-iosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				361F2F8B2B1F98C000D757F9 /* Debug */,
+				361F2F8C2B1F98C000D757F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 361F2F572B1F98BD00D757F9 /* Project object */;
+}
