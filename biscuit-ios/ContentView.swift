@@ -9,13 +9,19 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        HStack {
+            ZStack {
+                Form {
+                    Text("Item Name")
+                    Text("Price")
+                    Text("Item Link")
+                    Text("Description")
+                    Button("Add Item") {
+                        print("added Item")
+                    }
+                }
+            }
         }
-        .padding()
     }
 }
 
